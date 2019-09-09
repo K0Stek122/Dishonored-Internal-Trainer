@@ -1,0 +1,19 @@
+﻿  DXHook.cpp
+  DllMain.cpp
+  Generating Code...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+DXHook.obj : warning LNK4006: "void __cdecl OneHitKillFunc(void)" (?OneHitKillFunc@@YAXXZ) already defined in DllMain.obj; second definition ignored
+DXHook.obj : warning LNK4006: "unsigned long jmpBackAddy" (?jmpBackAddy@@3KA) already defined in DllMain.obj; second definition ignored
+DXHook.obj : warning LNK4006: "struct offsets ofs" (?ofs@@3Uoffsets@@A) already defined in DllMain.obj; second definition ignored
+DXHook.obj : warning LNK4006: "struct cheatBools infHealth" (?infHealth@@3UcheatBools@@A) already defined in DllMain.obj; second definition ignored
+DXHook.obj : warning LNK4006: "struct cheatBools infMana" (?infMana@@3UcheatBools@@A) already defined in DllMain.obj; second definition ignored
+DXHook.obj : warning LNK4006: "struct cheatBools infGadgets" (?infGadgets@@3UcheatBools@@A) already defined in DllMain.obj; second definition ignored
+DXHook.obj : warning LNK4006: "struct cheatBools infPotions" (?infPotions@@3UcheatBools@@A) already defined in DllMain.obj; second definition ignored
+DXHook.obj : warning LNK4006: "struct cheatBools infCoins" (?infCoins@@3UcheatBools@@A) already defined in DllMain.obj; second definition ignored
+DXHook.obj : warning LNK4006: "struct cheatBools infRunes" (?infRunes@@3UcheatBools@@A) already defined in DllMain.obj; second definition ignored
+DXHook.obj : warning LNK4006: "struct cheatBools OneHitKill" (?OneHitKill@@3UcheatBools@@A) already defined in DllMain.obj; second definition ignored
+DXHook.obj : warning LNK4006: "struct Hacks hacks" (?hacks@@3UHacks@@A) already defined in DllMain.obj; second definition ignored
+C:\Users\pc1\Documents\Programming\C++\Dishonored Internal\Debug\Dishonored Internal.dll : warning LNK4088: image being generated due to /FORCE option; image may not run
+detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'C:\Users\pc1\Documents\Programming\C++\Dishonored Internal\Debug\detours.pdb'; linking object as if no debug info
+detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'C:\Users\pc1\Documents\Programming\C++\Dishonored Internal\Debug\detours.pdb'; linking object as if no debug info
+  Dishonored Internal.vcxproj -> C:\Users\pc1\Documents\Programming\C++\Dishonored Internal\Debug\Dishonored Internal.dll

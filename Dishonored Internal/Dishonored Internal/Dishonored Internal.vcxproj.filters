@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DllMain">
+      <UniqueIdentifier>{670da30b-f42b-484e-98d0-de95d8ed854f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{76f5aed3-bb7a-4a95-ab4b-9fe8833937da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXHook">
+      <UniqueIdentifier>{927c6d89-d959-4e2e-b075-d11425319abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{8e7e692b-5269-416d-9490-fd2d9691e17e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KTrainAPI">
+      <UniqueIdentifier>{41055857-5007-4fba-a256-c7ed1d0ebf25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>DllMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Cmath.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d9Hooking.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DXHook.cpp">
+      <Filter>DXHook</Filter>
+    </ClCompile>
+    <ClCompile Include="KTrainApi.cpp">
+      <Filter>KTrainAPI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cmath.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dHooking.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DXHook.hpp">
+      <Filter>DXHook</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Hacks.hpp">
+      <Filter>Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="KTrainApi.hpp">
+      <Filter>KTrainAPI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
