@@ -1,0 +1,6 @@
+﻿  dllmain.cpp
+f:\programming\projects\c++\dshtrainer\dshtrainer\functions\speedhack\speedhack.hpp(28): warning C4244: '+=': conversion from 'float' to 'LONGLONG', possible loss of data
+f:\programming\projects\c++\dshtrainer\dshtrainer\functions\speedhack\speedhack.hpp(46): warning C4244: '+=': conversion from 'float' to 'DWORD', possible loss of data
+f:\programming\projects\c++\dshtrainer\dshtrainer\functions\speedhack\speedhack.hpp(62): warning C4244: '+=': conversion from 'float' to 'DWORD', possible loss of data
+  LINK : F:\Programming\Projects\C++\DSHTrainer\Debug\DSHTrainer.dll not found or not built by the last incremental link; performing full link
+  DSHTrainer.vcxproj -> F:\Programming\Projects\C++\DSHTrainer\Debug\DSHTrainer.dll
